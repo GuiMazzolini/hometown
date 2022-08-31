@@ -58,7 +58,8 @@ img {
 
 .activities {
     display: flex;
-    justify-content: space-around;     
+    justify-content: space-around;
+    padding: 0px 100px;   
 }
 
 .local {
