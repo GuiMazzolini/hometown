@@ -1,0 +1,137 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
+
+#firstsection {
+    background-image: url(images/bragpta.jpeg);
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2 {
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    text-shadow: 0px 0px 3px black;
+    width: 355px;
+}
+
+h1 {
+    font-size: 28px;
+    background: #415A77;
+    margin-bottom: 5px;
+}
+
+h2{
+    margin-top: 0px;
+    font-size: 17px;
+    background: #59C9C0;
+}
+
+.title {
+    margin: 0;
+    padding: 20px 0px;
+}
+
+.summer {
+    background-color: #B9D1D6;
+    margin: 0;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.activities {
+    display: flex;
+    justify-content: space-around;     
+}
+
+.local {
+    width: 200px;
+}   
+
+.act-title {
+    Width: 183px;
+    font-size: 16px;
+}
+    
+.winter {
+    background-color: #E0E1DD;
+    margin: 0px;
+}
+
+/**  
+.card {
+    width: 400px;
+    height: 294px;
+    background-color: #415A77;
+    margin: 50px 160px;
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    align-content: center;
+    color: white
+}
+*/
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 450px;
+    margin: 40px 0;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px black;
+    background-color: #415A77;
+    color: white;
+}
+
+#guide {
+    width: 189px;      
+}
+
+#me {
+    width: 180px;
+    height: 248.67px;
+    background-image: url("images/guicartao.jpeg");
+    background-size: cover;
+    margin-right: 20px
+}
+
+#tofu {
+    margin: 0px;
+    padding-right: 15px;
+}
+
+#me:hover {
+    background-image: url("images/tofu.jpg")
+}
