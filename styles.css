@@ -1,16 +1,7 @@
-/**
-Palette: https://scrimba.com/links/hometown-palette
-RED: #E63946
-LIGHT: #F1FAEE
-AQUA: #A8DADC
-LIGHT BLUE: #457B9D
-DARK BLUE: #1D3557
 
-*/
 html {
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
-    width: 720px;
  }
 
 body {
@@ -84,25 +75,12 @@ img {
     margin: 0px;
 }
 
-/**  
-.card {
-    width: 400px;
-    height: 294px;
-    background-color: #415A77;
-    margin: 50px 160px;
-    text-align: center;
-    justify-content: space-around;
-    display: flex;
-    align-content: center;
-    color: white
-}
-*/
-
 .card {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .wrapper {
     display: flex;
     justify-content: center;
