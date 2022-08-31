@@ -51,19 +51,20 @@ h2{
 }
 
 img {
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
 }
 
 .activities {
     display: flex;
-    justify-content: space-around;
-    padding: 0px 100px;   
+    justify-content: center;
+       
 }
 
 .local {
     width: 200px;
+    padding: 0px 30px;
 }   
 
 .act-title {
